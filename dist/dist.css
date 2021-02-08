@@ -1,0 +1,122 @@
+:root {
+  --primary-bg-color: rgb(44, 44, 44);
+  --secondary-bg-color: rgb(34, 34, 34);
+  --editor-bg-color: rgb(34, 34, 34);
+  --border-color: rgb(26, 26, 26);
+  --ui-text-color: rgb(194, 194, 194);
+  --sn-stylekit-info-color: #df4a16;
+  --sn-stylekit-info-contrast-color: white;
+  --sn-stylekit-neutral-color: #727072;
+  --sn-stylekit-neutral-contrast-color: white;
+  --sn-stylekit-success-color: #0d761d;
+  --sn-stylekit-success-contrast-color: white;
+  --sn-stylekit-warning-color: rgb(119, 63, 114);
+  --sn-stylekit-warning-contrast-color: white;
+  --sn-stylekit-danger-color: #df4a16;
+  --sn-stylekit-danger-contrast-color: white;
+  --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--ui-text-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-shadow-color: var(--editor-bg-color);
+  --sn-stylekit-background-color: var(--editor-bg-color);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-background-color: var(--secondary-bg-color);
+  --sn-stylekit-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--secondary-bg-color);
+  --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: #403e41;
+  --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-paragraph-text-color: var(--ui-text-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-neutral-color);
+  --sn-stylekit-general-border-radius: 4px;
+  --sn-stylekit-monospace-font: "Ubuntu Mono", courier, monospace;
+  --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+#select {
+  margin: 5px;
+  color: var(--sn-stylekit-foreground-color);
+  background-color: #221f22;
+  line-height: 1.3;
+  border: 1px solid #13131a;
+  border-radius: 4px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.sn-component .sk-button.sk-secondary-contrast::before {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.sn-component .sk-button.sk-secondary-contrast::after {
+  color: var(--primary-bg-color) !important;
+}
+
+#search-bar,
+#notes-column .filter-section .filter-bar,
+.notes .filter-section .filter-bar,
+.editor-toolbar button.active,
+.editor-toolbar button:hover,
+.sn-component .sk-menu-panel,
+.sk-panel-header,
+.sn-component .sk-panel,
+.sk-menu-panel-header,
+#editor-title-bar,
+.tags,
+.tags #tags-content,
+.sn-component .sk-menu-panel .sk-menu-panel-row {
+  background-color: var(--primary-bg-color) !important;
+}
+
+.sk-menu-panel-header {
+  color: #656565 !important;
+}
+
+.sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
+  background-color: #3d3d3d !important;
+}
+
+#notes-column .note:not(.selected):hover,
+.notes .note:not(.selected):hover {
+  background-color: var(--primary-bg-color) !important;
+}
+
+pre {
+  overflow: auto;
+}
+
+.editor-toolbar button {
+  color: var(--ui-text-color) !important;
+}
+
+.sn-component .sk-button.info,
+.sn-component .info.sk-box,
+.sn-component .sk-box.info,
+.sn-component .sk-circle.info {
+  background-color: #773f72;
+  border-color: #773f72;
+}
+.sn-component .sk-button.info::before,
+.sn-component .info.sk-box::before,
+.sn-component .sk-box.info::before,
+.sn-component .sk-circle.info::before {
+  background-color: #773f72;
+}
+.sn-component .sk-button.info::after,
+.sn-component .info.sk-box::after,
+.sn-component .sk-box.info::after,
+.sn-component .sk-circle.info::after {
+  color: #773f72;
+}
+
+/*# sourceMappingURL=dist.css.map */
