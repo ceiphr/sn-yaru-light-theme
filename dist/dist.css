@@ -1,9 +1,9 @@
 :root {
-  --primary-bg-color: rgb(44, 44, 44);
-  --secondary-bg-color: rgb(34, 34, 34);
-  --editor-bg-color: rgb(34, 34, 34);
-  --border-color: rgb(26, 26, 26);
-  --ui-text-color: rgb(194, 194, 194);
+  --primary-bg-color: rgb(241, 241, 241);
+  --secondary-bg-color: rgb(255, 255, 255);
+  --editor-bg-color: rgb(255, 255, 255);
+  --border-color: rgb(222, 222, 222);
+  --ui-text-color: rgb(56, 56, 56);
   --sn-stylekit-info-color: #df4a16;
   --sn-stylekit-info-contrast-color: white;
   --sn-stylekit-neutral-color: #727072;
@@ -28,7 +28,7 @@
   --sn-stylekit-secondary-background-color: var(--secondary-bg-color);
   --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
   --sn-stylekit-secondary-border-color: var(--border-color);
-  --sn-stylekit-secondary-contrast-background-color: #403e41;
+  --sn-stylekit-secondary-contrast-background-color: var(--sn-stylekit-secondary-contrast-background-color);
   --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
   --sn-stylekit-secondary-contrast-border-color: var(--border-color);
   --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
@@ -79,11 +79,11 @@
 }
 
 .sk-menu-panel-header {
-  color: #656565 !important;
+  color: #bcbcbc !important;
 }
 
 .sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
-  background-color: #3d3d3d !important;
+  background-color: #e7e7e7 !important;
 }
 
 #notes-column .note:not(.selected):hover,
