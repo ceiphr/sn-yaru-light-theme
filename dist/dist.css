@@ -1,4 +1,9 @@
 :root {
+  --primary-bg-color: rgb(241, 241, 241);
+  --secondary-bg-color: rgb(255, 255, 255);
+  --editor-bg-color: rgb(255, 255, 255);
+  --border-color: rgb(222, 222, 222);
+  --ui-text-color: rgb(56, 56, 56);
   --sn-stylekit-info-color: #df4a16;
   --sn-stylekit-info-contrast-color: white;
   --sn-stylekit-neutral-color: #727072;
@@ -9,6 +14,28 @@
   --sn-stylekit-warning-contrast-color: white;
   --sn-stylekit-danger-color: #df4a16;
   --sn-stylekit-danger-contrast-color: white;
+  --sn-desktop-titlebar-bg-color: var(--primary-bg-color);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--ui-text-color);
+  --sn-desktop-titlebar-ui-hover-color: var(--sn-stylekit-info-color);
+  --sn-stylekit-shadow-color: var(--editor-bg-color);
+  --sn-stylekit-background-color: var(--editor-bg-color);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-background-color: var(--secondary-bg-color);
+  --sn-stylekit-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--secondary-bg-color);
+  --sn-stylekit-secondary-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: var(--sn-stylekit-secondary-contrast-background-color);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--ui-text-color);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+  --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  --sn-stylekit-paragraph-text-color: var(--ui-text-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-neutral-color);
   --sn-stylekit-general-border-radius: 4px;
   --sn-stylekit-monospace-font: "Ubuntu Mono", courier, monospace;
   --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, "Ubuntu",
