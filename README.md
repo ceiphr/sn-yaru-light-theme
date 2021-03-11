@@ -11,7 +11,7 @@ Note: This repo only contains the light variant of the theme. [Go here for the d
 
 1. Open the [Standard Notes web app](https://app.standardnotes.org/).
 
-2. In extensions, click import, paste `https://changelog.ceiphr.com/p/zwtjsCx2fY` and hit `ENTER`.
+2. In extensions, click import, paste `https://changelog.ceiphr.com/p/VGe2xeU6G3` and hit `ENTER`.
 
 3. Click "Install," then activate the *Yaru* theme.
 
