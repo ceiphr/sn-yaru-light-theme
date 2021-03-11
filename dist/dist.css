@@ -82,6 +82,10 @@
   color: #bcbcbc !important;
 }
 
+.sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
+  background-color: #e7e7e7 !important;
+}
+
 #notes-column .note:not(.selected):hover,
 .notes .note:not(.selected):hover {
   background-color: var(--primary-bg-color) !important;
