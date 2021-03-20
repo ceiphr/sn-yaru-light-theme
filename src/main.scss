@@ -84,15 +84,18 @@
 .notes .filter-section .filter-bar,
 .editor-toolbar button.active,
 .editor-toolbar button:hover,
-.sn-component .sk-menu-panel,
 .sk-panel-header,
 .sn-component .sk-panel,
 .sk-menu-panel-header,
 #editor-title-bar,
 .tags,
-.tags #tags-content,
-.sn-component .sk-menu-panel .sk-menu-panel-row {
+.tags #tags-content {
   background-color: var(--primary-bg-color) !important;
+}
+
+.sn-component .sk-menu-panel .sk-menu-panel-row,
+.sn-component .sk-menu-panel {
+  background-color: var(--secondary-bg-color) !important;
 }
 
 .sk-menu-panel-header {
@@ -100,7 +103,7 @@
 }
 
 .sn-component .sk-menu-panel .sk-menu-panel-row:not(.selected):hover {
-  background-color: #e7e7e7 !important
+  background-color: var(--primary-bg-color) !important
 }
 
 #notes-column .note,
